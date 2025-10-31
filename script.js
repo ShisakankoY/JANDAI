@@ -113,7 +113,7 @@ function epoch() {
     if (count % 5 === 0) {
         text.innerHTML = "Epoch: " + count + "<br>"
             + "outputArray: " + outputArray.join(' ') + "<br>"
-            + "errors" + errors.join(' ');
+            + "errors: " + errors.join(' ');
     }
 
     if (count <= 2000) {
